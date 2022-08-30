@@ -44,7 +44,7 @@ export const Buttons = styled.div`
         letter-spacing: 0.4px;
         text-transform: uppercase;
 
-        padding: 13px 40px;
+        padding: 12px 40px;
         border-radius: 20px;
         border: none;
         outline: 0;

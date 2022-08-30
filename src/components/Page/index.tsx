@@ -3,6 +3,7 @@ import { ModelsWrapper, ModelSection } from "../Model";
 import DefaultOverlayContent from "../DefaultOverlayContent";
 
 import { Container } from "./styles";
+import UniqueOverlay from "../UniqueOverlay";
 
 const Page: React.FC = () => {
     return (
@@ -10,13 +11,13 @@ const Page: React.FC = () => {
             <ModelsWrapper>
                 <div>
                     {[
-                        'Model One',
-                        'Model Two',
-                        'Model Three',
-                        'Model Four',
-                        'Model Five',
-                        'Model Six',
-                        'Model Seven',
+                        'Model S',
+                        'Model X',
+                        'Model 3',
+                        'Model Y',
+                        'Solar Panels',
+                        'Solar Roof',
+                        'Acessories',
                     ].map(modelName => (
                         <ModelSection
                             key={modelName}
@@ -31,6 +32,9 @@ const Page: React.FC = () => {
                         />
                     ))}
                 </div>
+
+                <UniqueOverlay />
+
             </ModelsWrapper>
         </Container>
     )
